@@ -1,3 +1,21 @@
 * {
     border: 1px solid red;
 }
+
+/* Margin may change*/
+body {
+    margin: 0 100px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-links ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    gap: 24px;
+}
