@@ -56,6 +56,8 @@ body {
     height: 200px;
     justify-content: center;
     align-items: center;
+    max-width: 500px;
+    margin: 0 auto;
 }
 
 #sign-up {
@@ -71,6 +73,7 @@ body {
 
 .hero-img {
     flex: 1;
+    text-align: center;
 }
 
 .info-container {
