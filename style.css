@@ -1,14 +1,24 @@
-* {
+/* * {
     border: 1px solid red;
-}
+} */
 
 /* Margin may change*/
 body {
-    margin: 0 100px;
-    min-height: 100vh;
+    margin: 0;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+button {
+    background: #3882f6;
 }
 
  /*Header*/
@@ -18,8 +28,13 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background: #1F2937;
 }
 
+.logo {
+    font-size: 24px;
+    color: #f9faf8
+}
 
 .header-links ul {
     list-style: none;
@@ -27,6 +42,8 @@ body {
     margin: 0;
     padding: 0;
     gap: 24px;
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 /*Content*/
@@ -39,7 +56,8 @@ body {
 #hero {
     display: flex;
     align-items: center;
-    height: 200px;
+    height: 625px;
+    background: #1F2937;
 }
 
 #info {
@@ -47,33 +65,45 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 200px;
+    height: 625px;
 }
 
 #quote {
     display: flex;
     flex-direction: column;
-    height: 200px;
+    height: 550px;
     justify-content: center;
     align-items: center;
-    max-width: 500px;
-    margin: 0 auto;
+    background: #e5e7eb;
 }
 
 #sign-up {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 150px;
+    height: 400px;
 }
 
 .hero-text {
     flex: 1;
 }
 
+.hero-title {
+    font-size: 48px;
+    font-weight: bolder; 
+    color: #f9faf8;
+}
+
+.hero-body {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
 .hero-img {
     flex: 1;
     text-align: center;
+    background: grey;
+    height: 300px;
 }
 
 .info-container {
@@ -82,6 +112,12 @@ body {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+}
+
+.info-title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
 }
 
 .info-desc {
@@ -93,14 +129,30 @@ body {
     height: 100px;
     margin: 0 auto;
     flex: none;
+    border: 2px solid #3882f6;
 }
 
 .info-text {
     flex: none;
 }
 
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: lighter;
+}
+
+.quote-cite {
+    color: #1F2937;
+    font-weight: bolder;
+    font-size: 36px;
+}
+
 .sign-up-banner {
     display: flex;
+    background: #3882f6;
+    color: #e5e7eb;
 }
 
 /*Footer*/
@@ -109,4 +161,34 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background: #1F2937;
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 0;
 }
+
+/*
+Dark background color (hero and footer)
+#1F2937
+
+Hero Main Text 
+48px extra-bold #f9faf8
+
+Hero Secondary Text, header link
+18px #e5e7eb
+
+Header Logo Text
+24px #f9faf8 
+
+Button Color and call to action background
+#3882f6
+
+Information header text
+36px extra-bold #1f2937
+
+Quote section background color
+#e5e7eb
+
+Quote text
+36px light italic #1f2937 
+*/
