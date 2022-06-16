@@ -4,24 +4,58 @@
 
 /* Margin may change*/
 body {
-    margin: 0 80px;
+    margin: 0 100px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
+ /*Header*/
 .header {
+    margin: 0;
+    padding: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+
 .header-links ul {
     list-style: none;
     display: flex;
+    margin: 0;
     padding: 0;
     gap: 24px;
 }
 
+/*Content*/
+.content {
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+}
+
 #hero {
     display: flex;
+    align-items: center;
+}
+
+#info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#quote {
+    display: flex;
+    flex-direction: column;
+}
+
+#sign-up {
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
 
@@ -33,13 +67,6 @@ body {
     flex: 1;
 }
 
-#info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
 .info-container {
     display: flex;
     text-align: center;
@@ -48,12 +75,24 @@ body {
 }
 
 .info-img {
-    width: 135px;
-    height: 135px;
+    width: 100px;
+    height: 100px;
     margin: 0 auto;
     flex: none;
 }
 
 .info-text {
     flex: none;
+}
+
+.sign-up-banner {
+    display: flex;
+}
+
+/*Footer*/
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
