@@ -19,12 +19,13 @@ a {
 
 button {
     background: #3882f6;
+    border-radius: 16px;
 }
 
  /*Header*/
 .header {
     margin: 0;
-    padding: 0;
+    padding: 0 250px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -58,6 +59,8 @@ button {
     align-items: center;
     height: 625px;
     background: #1F2937;
+    padding: 0 250px;
+
 }
 
 #info {
@@ -130,6 +133,7 @@ button {
     margin: 0 auto;
     flex: none;
     border: 2px solid #3882f6;
+    border-radius: 16px;
 }
 
 .info-text {
@@ -153,6 +157,8 @@ button {
     display: flex;
     background: #3882f6;
     color: #e5e7eb;
+    border-radius: 8px;
+    width: 1180px;
 }
 
 /*Footer*/
