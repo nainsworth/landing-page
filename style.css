@@ -4,7 +4,7 @@
 
 /* Margin may change*/
 body {
-    margin: 0 100px;
+    margin: 0 80px;
 }
 
 .header {
@@ -31,4 +31,29 @@ body {
 
 .hero-img {
     flex: 1;
+}
+
+#info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-img {
+    width: 135px;
+    height: 135px;
+    margin: 0 auto;
+    flex: none;
+}
+
+.info-text {
+    flex: none;
 }
