@@ -39,6 +39,7 @@ body {
 #hero {
     display: flex;
     align-items: center;
+    height: 200px;
 }
 
 #info {
@@ -46,17 +47,22 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    height: 200px;
 }
 
 #quote {
     display: flex;
     flex-direction: column;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
 }
 
 #sign-up {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 150px;
 }
 
 .hero-text {
