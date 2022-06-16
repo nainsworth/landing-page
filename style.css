@@ -19,3 +19,16 @@ body {
     padding: 0;
     gap: 24px;
 }
+
+#hero {
+    display: flex;
+    align-items: center;
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.hero-img {
+    flex: 1;
+}
