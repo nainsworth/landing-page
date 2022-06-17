@@ -66,10 +66,11 @@ button {
 #hero {
     display: flex;
     align-items: center;
-    height: 600px;
+    min-height: 600px;
     background: #1F2937;
     padding: 0 300px;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .hero-text {
@@ -110,7 +111,7 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 625px;
+    min-height: 625px;
 }
 
 .info-container {
@@ -153,7 +154,7 @@ button {
 #quote {
     display: flex;
     flex-direction: column;
-    height: 500px;
+    min-height: 500px;
     justify-content: center;
     align-items: center;
     background: #e5e7eb;
@@ -195,6 +196,7 @@ button {
     border-radius: 8px;
     max-width: 1250px;
     min-height: 180px;
+    flex-wrap: wrap;
 }
 
 .sign-up-banner button {
