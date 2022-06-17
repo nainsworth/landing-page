@@ -109,7 +109,6 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     height: 625px;
 }
 
@@ -119,29 +118,34 @@ button {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    gap: 55px
 }
 
 .info-title {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    margin: 75px 0;
 }
 
 .info-desc {
-    width: 150px;
+    width: 210px;
 }
 
 .info-img {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     margin: 0 auto;
     flex: none;
-    border: 2px solid #3882f6;
-    border-radius: 16px;
+    border: 5px solid #3882f6;
+    border-radius: 24px;
 }
 
 .info-text {
     flex: none;
+    margin: 8px auto;
+    font-size: 20px;
+    width: 200px;
 }
 
 /*Quote Section*/
