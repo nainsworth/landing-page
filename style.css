@@ -41,7 +41,8 @@ button {
 
 .logo {
     font-size: 24px;
-    color: #f9faf8
+    color: #f9faf8;
+    font-weight: bolder;
 }
 
 .header-links ul {
