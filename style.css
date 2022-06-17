@@ -2,6 +2,10 @@
     border: 1px solid red;
 } */
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* Margin may change*/
 body {
     margin: 0;
