@@ -32,7 +32,7 @@ button {
  /*Header*/
 .header {
     margin: 0;
-    padding: 0 250px;
+    padding: 20px 250px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -65,7 +65,7 @@ button {
 #hero {
     display: flex;
     align-items: center;
-    height: 625px;
+    height: 600px;
     background: #1F2937;
     padding: 0 250px;
     justify-content: space-between;
