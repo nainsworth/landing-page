@@ -32,7 +32,7 @@ button {
  /*Header*/
 .header {
     margin: 0;
-    padding: 20px 250px 0;
+    padding: 20px 300px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -68,7 +68,7 @@ button {
     align-items: center;
     height: 600px;
     background: #1F2937;
-    padding: 0 250px;
+    padding: 0 300px;
     justify-content: space-between;
 }
 
@@ -153,7 +153,7 @@ button {
 #quote {
     display: flex;
     flex-direction: column;
-    height: 550px;
+    height: 500px;
     justify-content: center;
     align-items: center;
     background: #e5e7eb;
