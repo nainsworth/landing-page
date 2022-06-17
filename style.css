@@ -61,6 +61,7 @@ button {
     flex: auto;
 }
 
+/*Hero Section*/
 #hero {
     display: flex;
     align-items: center;
@@ -68,30 +69,6 @@ button {
     background: #1F2937;
     padding: 0 250px;
     justify-content: space-between;
-}
-
-#info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 625px;
-}
-
-#quote {
-    display: flex;
-    flex-direction: column;
-    height: 550px;
-    justify-content: center;
-    align-items: center;
-    background: #e5e7eb;
-}
-
-#sign-up {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 400px;
 }
 
 .hero-text {
@@ -127,6 +104,15 @@ button {
     font-size: 20px;
 }
 
+/*Info Section*/
+#info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 625px;
+}
+
 .info-container {
     display: flex;
     text-align: center;
@@ -158,6 +144,16 @@ button {
     flex: none;
 }
 
+/*Quote Section*/
+#quote {
+    display: flex;
+    flex-direction: column;
+    height: 550px;
+    justify-content: center;
+    align-items: center;
+    background: #e5e7eb;
+}
+
 .quote-text {
     font-size: 36px;
     font-style: italic;
@@ -169,6 +165,14 @@ button {
     color: #1F2937;
     font-weight: bolder;
     font-size: 36px;
+}
+
+/*Sign-up Section*/
+#sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
 }
 
 .sign-up-banner {
