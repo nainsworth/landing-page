@@ -23,7 +23,10 @@ a {
 
 button {
     background: #3882f6;
-    border-radius: 16px;
+    border-radius: 12px;
+    padding: 12px 50px;
+    font-weight: bolder;
+    font-size: 18px;
 }
 
  /*Header*/
@@ -64,7 +67,7 @@ button {
     height: 625px;
     background: #1F2937;
     padding: 0 250px;
-
+    justify-content: space-between;
 }
 
 #info {
@@ -93,6 +96,7 @@ button {
 
 .hero-text {
     flex: 1;
+    max-width: 450px;
 }
 
 .hero-title {
@@ -104,13 +108,23 @@ button {
 .hero-body {
     font-size: 18px;
     color: #e5e7eb;
+    margin-bottom: 16px;
+}
+
+.hero-text button {
+    border: none;
 }
 
 .hero-img {
     flex: 1;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: grey;
     height: 300px;
+    max-width: 650px;
+    color: #f9faf8;
+    font-size: 20px;
 }
 
 .info-container {
