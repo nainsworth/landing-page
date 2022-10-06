@@ -9,4 +9,4 @@ The website will contain an index page that will be full created to the project 
 This will be in HTML and CSS only!
 
 ## Live Post
-[Landing Page Web Link](https://META-N1CK.github.io/landing-page/)
+[Landing Page Web Link](https://nainsworth.github.io/landing-page/)
